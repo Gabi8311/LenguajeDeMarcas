@@ -1,0 +1,212 @@
+/*Estilos Generales*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    main{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .col-1{
+         width:8.33%; 
+    }
+    .col-2{
+         width:16.66%; 
+    }
+    .col-3{
+        width:25%;  
+    }
+    .col-4{
+       width:33.33%;   
+    }
+    .col-5{
+        width:41.66%;  
+    }
+    .col-6{
+         width:50%; 
+    }
+    .col-7{
+      width:58.33%;
+    }
+    .col-8{
+         width:66.66%; 
+    }
+    .col-9{
+       width:75%;   
+    }
+    .col-10{
+        width:83.33%;  
+    }
+    .col-11{
+        width:91.66%;  
+    }
+    .col-12{
+         width:100%; 
+    }
+    .col-1,
+    .col-2,
+    .col-3,
+    .col-4,
+    .col-5,
+    .col-6,
+    .col-7,
+    .col-8,
+    .col-9,
+    .col-10,
+    .col-11,
+    .col-12{
+      padding: 2%;
+    }
+    body{
+        background-color: rgb(216, 216, 216);
+    }
+    img{
+        max-width: 100%;
+    }
+    .row{
+        display: flex;
+        width: 90%;
+        margin: 10px auto;
+        align-items: center;
+    }
+    p{
+        font-family: 'Architects Daughter', cursive;
+    }
+
+    /*Header*/
+    header{
+        display: flex;
+        background-color: black;
+    }
+    .col-6 h1{
+        font-family: 'Architects Daughter', cursive;
+        color: white;
+    }
+    header .col-3{
+        background-color: black;
+    }
+    header .col-6{
+        background-color: black;
+        text-align: center;
+        padding-top: 5%;
+    }
+    header .col-3.social{
+        text-align: right;
+    }
+    header .col-3.social img{
+        padding-left: 8%;
+    }
+    header .col-3.social img.tamanho{
+        width: 26%;
+    }
+
+    /*Navegación*/
+    nav{
+        background-color: black;
+        text-align: center;
+    }
+    nav a{
+        color: #fff;
+        padding: 10px 35px;
+        text-transform: uppercase;
+        font-size: 20px;
+        font-family: 'Permanent Marker', cursive;
+    }
+    nav a:hover{
+        background-color:  #318aac;
+        color:rgb(0, 0, 0) ;
+    }
+    .active{
+        background-color:  #318aac;
+        color:rgb(0, 0, 0) ;
+    }
+    a{
+        text-decoration: none;
+    }
+    nav.arriba{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 90%;
+        margin: 10px auto;
+        align-items: center;
+    }
+
+    /*Footer*/
+    footer{
+        background-color: black;
+        display: flex;
+        align-items: center;    
+    }
+    footer .col-6{
+        text-align: center;
+        
+        color: white;     
+    }
+    footer .col-4{
+      
+        padding-bottom: 4.5%;     
+    }
+    footer .col-4 p{
+        color: whitesmoke;
+        margin-top:1%;
+    }
+    footer .col-6 p{
+        margin-top:1%;
+    }
+    footer .col-6 h3{
+        color: white;
+        margin-top: 3%;
+    }
+    .tabulacion:first-letter {
+        margin-left: 5%;
+    }
+
+    /*Index*/
+    .arribaFoto h2{
+        text-align: center;
+        font-family: 'Permanent Marker', cursive;
+    }
+    .col-5 img{
+        padding-left:12%;
+    }
+    button {
+        color: #fff !important;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 0.5em 1.2em;
+        background: #318aac;
+        position: relative;
+        border: 2px solid #318aac;
+        outline: 1px solid;
+        outline-color: rgba(49, 138, 172, 0.4);
+        transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+        font-family: 'Shadows Into Light', cursive;
+    }
+    button:hover {
+        box-shadow: inset 0 0 20px rgba(49, 138, 172, 0.5), 0 0 20px rgba(49, 138, 172, 0.4);
+        outline-color: rgba(49, 138, 172, 0);
+        outline-offset: 80px;
+        text-shadow: 1px 1px 6px #fff;
+    }
+
+    /*Contacto*/
+    .formulario{
+        margin-left: 45%;
+    }
+    .formulario input{
+        display: block;
+        padding: 10px;
+    }
+    .formulario h3{
+        padding-bottom: 10%;
+        padding-right: 31%;
+    }
+    h3{
+       text-align: center;
+       font-family: 'Permanent Marker', cursive;
+       padding-bottom: 1%;   
+    }
+
+    
